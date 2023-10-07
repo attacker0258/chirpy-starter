@@ -75,11 +75,9 @@ refactor: true
               <p>
                 <!-- description -->
                 {% if post.descriptions.size > 0 %}
-                  <p>
                     {% for description in post.descriptions %}
-                      {{ description | markdownify | strip_html | truncate: 200 | escape }}
+                      {{ description}}
                     {% endfor %}
-                  </p>
                 {% endif %}
                 {% include no-linenos.html content=post.descriptions %}
                 {{ descriptions | markdownify | strip_html | truncate: 200 | escape }}
