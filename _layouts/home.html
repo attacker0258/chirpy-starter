@@ -81,8 +81,8 @@ refactor: true
                     {% endfor %}
                   </p>
                 {% endif %}
-                {% include no-linenos.html content=post.content %}
-                {{ content | markdownify | strip_html | truncate: 200 | escape }}
+                {% include no-linenos.html content=post.descriptions %}
+                {{ descriptions | markdownify | strip_html | truncate: 200 | escape }}
               </p>
             </div>
 
