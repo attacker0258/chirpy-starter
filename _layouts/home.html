@@ -75,7 +75,7 @@ refactor: true
               <p>
                 <!-- description -->
                 {% if post.descriptions.size > 0 %}
-                    {% for description in post.descriptions %}
+                    {% for description in post.description %}
                       {{ description | markdownify | strip_html | truncate: 200 | escape }}
                     {% endfor %}
                 {% endif %}
