@@ -85,8 +85,8 @@ refactor: true
                 {% include datetime.html date=post.date lang=lang %}
 
                 <!-- categories -->
-                {% if post.tags.size > 0 %}
-                  <i class="far fa-folder-open fa-fw me-1"></i>
+                {% if page.tags.size > 0 %}
+                  <i class="fa fa-tags fa-fw me-1"></i>
                   <span class="categories">
                     {% for tag in page.tags %}
                       {{- tag -}}
