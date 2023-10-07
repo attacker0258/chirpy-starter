@@ -75,12 +75,11 @@ refactor: true
               <p>
                 <!-- description -->
                 {% if post.descriptions.size > 0 %}
-                  <i class="fa fa-tags fa-fw me-1"></i>
-                  <span class="categories">
+                  <p>
                     {% for description in post.descriptions %}
                       {{ description | markdownify | strip_html | truncate: 200 | escape }}
                     {% endfor %}
-                  </span>
+                  </p>
                 {% endif %}
                 {% include no-linenos.html content=post.content %}
                 {{ content | markdownify | strip_html | truncate: 200 | escape }}
