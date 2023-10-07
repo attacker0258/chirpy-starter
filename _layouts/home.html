@@ -74,7 +74,7 @@ refactor: true
             <div class="card-text content mt-0 mb-2">
               <p>
                 <!-- description -->
-                {% if post.descriptions.size > 0 %}
+                {% if post.description.size > 0 %}
                     {% for description in post.description %}
                       {{ description | markdownify | strip_html | truncate: 200 | escape }}
                     {% endfor %}
