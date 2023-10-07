@@ -71,16 +71,14 @@ refactor: true
           <div class="card-body d-flex flex-column">
             <h1 class="card-title my-2 mt-md-0">{{ post.title }}</h1>
 
-            <div class="card-text content mt-0 mb-3">
+            <div class="card-text content mt-0 mb-2">
               <p>
                 <!-- description -->
                 {% if post.descriptions.size > 0 %}
                     {% for description in post.descriptions %}
-                      {{ description}}
+                      {{ description | markdownify | strip_html | truncate: 200 | escape }}
                     {% endfor %}
                 {% endif %}
-                {% include no-linenos.html content=post.descriptions %}
-                {{ descriptions | markdownify | strip_html | truncate: 200 | escape }}
               </p>
             </div>
 
