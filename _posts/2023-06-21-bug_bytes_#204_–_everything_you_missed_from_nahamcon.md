@@ -12,4 +12,4 @@ tags:
 title: 'Bug Bytes #204 – Everything You Missed From NahamCon'
 ---
 
-The post <a href='https://blog.intigriti.com/2023/06/21/bug-bytes-204-everything-you-missed-from-nahamcon/'>Bug Bytes #204 – Everything You Missed From NahamCon</a> appeared first on <a href='https://blog.intigriti.com/category/bugbytes/'>Bug Bytes - Intigriti</a>.
+The post <a href='https://blog.intigriti.com/2023/06/21/bug-bytes-204-everything-you-missed-from-nahamcon/' target='_blank'>Bug Bytes #204 – Everything You Missed From NahamCon</a> appeared first on <a href='https://blog.intigriti.com/category/bugbytes/' target='_blank'>Bug Bytes - Intigriti</a>.
