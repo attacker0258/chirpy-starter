@@ -12,4 +12,5 @@ tags:
 title: 'Bug Bytes #204 – Everything You Missed From NahamCon'
 ---
 
+<p>Bug Bytes is a weekly newsletter curated by members of the bug bounty community. The second series is curated by InsiderPhD. Every week, she keeps us up to date with a comprehensive list of write-u
 The post <a href='https://blog.intigriti.com/2023/06/21/bug-bytes-204-everything-you-missed-from-nahamcon/' target='_blank'>Bug Bytes #204 – Everything You Missed From NahamCon</a> appeared first on <a href='https://blog.intigriti.com/category/bugbytes/' target='_blank'>Bug Bytes - Intigriti</a>.
